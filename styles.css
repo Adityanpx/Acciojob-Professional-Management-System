@@ -27,11 +27,14 @@ button {
   cursor: pointer;
 }
 .tdata {
-    display: flex;
-    
-    justify-content: space-around;
-    border: 1px solid white;
-    border-radius: 22px;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid white;
+  border-radius: 22px;
+}
+
+.tdata:empty {
+  border: none;
 }
 
 #msg{
